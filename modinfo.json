@@ -1,9 +1,0 @@
-{
-  "name": "XP Farm",
-  "version": "1.0",
-  "description": "Мясо для всех",
-  "author": "Mistik126",
-  "constants": {
-    "startPolicy": "XP Farm"
-  }
-}
