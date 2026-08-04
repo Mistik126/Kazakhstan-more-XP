@@ -1,1 +1,12 @@
 
+[
+  {
+    "name": "XP Farm",
+    "uniques": [
+      "New [Military] units start with [400] XP [in all cities]",
+      "[+300]% XP from combat",
+      "New [Water] units start with [400] XP [in all cities]",
+      "[+300]% XP from combat for [Water] units"
+    ]
+  }
+]
