@@ -1,12 +1,14 @@
 [
   {
     "name": "MoreXp",
-    "cost": 0,
-    "uniques": [ "Automatically built in all cities of [player] where it is buildable",
-		    "Limited to [1] per Civilization",
-        "New [Military] units start with [400] Experience [in all cities]",
-		"[+300]% XP gained from combat <for [Military] units>",
-	    "New [{Military} {Water}] units start with [400] Experience [in all cities]",
-		"[+300]% XP gained from combat <for [{Military} {Water}] units>"
-	]}
+    "cost": 1,
+    "uniques": [
+      "Free in all cities of [player]",
+      "Unbuildable",
+      "New [Military] units start with [400] Experience [in all cities]",
+      "[+500]% XP gained from combat ",
+      "New [{Military} {Water}] units start with [400] Experience [in all cities]",
+      "[+300]% XP gained from combat for [{Military} {Water}] units"
+    ]
+  }
 ]
