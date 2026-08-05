@@ -10,7 +10,7 @@
     "unitTypes": ["Melee"]
   },
 
-  // ===== ВЕТКА ЗАЩИТЫ =====
+
   {
    "name": "Степная защита I",
     "uniques": ["[+15]% Strength <when defending>"],
@@ -32,7 +32,8 @@
     "prerequisites": ["Степная защита II"]
   },
 
-  // ===== ВЕТКА АТАКИ =====
+
+  
   {
     "name": "Степная атака I",
     "uniques": ["[+15]% Strength <when attacking>"],
@@ -54,7 +55,8 @@
     "prerequisites": ["Степная атака II"]
   },
 
-  // ===== УНИВЕРСАЛЬНАЯ ВЕТКА =====
+
+  
   {
     "name": "Степной воин I",
     "uniques": ["[+10]% Strength <in [Plains] tiles>", "Ignores terrain cost"],
