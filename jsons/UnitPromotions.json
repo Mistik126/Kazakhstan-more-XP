@@ -57,8 +57,16 @@
     },
   {
     "name": "Killer",
-    "unques": ["[+10]% Strength <when attaking>",
+    "uniques": ["[+10]% Strength <when attaking>",
                "[+30]% Strength <when attacking> <vs [Ranged] units>"],
+    "prerequisites":["Стальная атака I"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "SuperKill",
+    "uniques": ["[+15]% Strength <when attaking>",
+               "[+30]% Strength <when attacking> <vs [Ranged] units>",
+               "[+30]% Strength <when attacking> <vs [Armored] units>"],
     "prerequisites":["Стальная атака I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
