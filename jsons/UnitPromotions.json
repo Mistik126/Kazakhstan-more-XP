@@ -49,6 +49,15 @@
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
         "prerequisites": ["Кевлар III"],
   },
+  {
+    "name": "Дредноут II"
+    "uniques": ["[+5]% Strength <when defending>",
+                "[+20]% Strength <when defending in [FriendlyLand] tiles>" ],
+    "prerequisites": ["Стальная защита I"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+    
+  },
+  
 {
     "name": "Стальная атака I",
     "uniques": ["[+15]% Strength <when attacking>"],
