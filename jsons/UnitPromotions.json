@@ -7,7 +7,7 @@
   {
     "name": "Батыр",
     "uniques": ["[+15]% Strength <when defending>", "[+10]% Strength <when attacking>"],
-    "unitTypes": ["Military"]
+    "unitTypes": ["Mounted, Millee, Ranged"]
   },
 
 
