@@ -1,9 +1,0 @@
-{
-  "name": "XP Farm",
-  "version": "1.0",
-  "description": "Фарм опыта только для игрока",
-  "author": "Mistik126",
-  "constants": {
-    "startPolicy": "XP Farm"
-  }
-}
