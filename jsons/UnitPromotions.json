@@ -38,7 +38,7 @@
                     "[+50]% Strength <when defending against [Air] units>",
                     "[+20]% Strength <when fighting in friendly territory>"]
         "unitTypes": ["Melee", "Mounted", "Ranged", "Siege", "Armor"],
-        "prerequisites": ["Защита II"],
+        "prerequisites": ["Степная защита II"],
   },
 {
     "name": "Степная атака I",
