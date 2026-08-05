@@ -15,7 +15,7 @@
    "name": "Степная защита I",
     "uniques": ["[+15]% Strength <when defending>"],
     "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
-    "cost": 30
+    "cost": 30,
     "prerequisites": ["Батыр"]
   },
   {
@@ -23,15 +23,13 @@
     "uniques": ["[+15]% Strength <when defending>", "+15 HP when healing"],
     "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
     "cost": 60,
-    "uniqueTo": "Казахстан",
     "prerequisites": ["Степная защита I"]
   },
   {
     "name": "Степная защита III",
     "uniques": ["[+25]% Strength <when defending>", "+25 HP when healing"],
     "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
-    "cost": 90
-    "uniqueTo": "Казахстан",
+    "cost": 90,
     "prerequisites": ["Степная защита II"]
   },
 
