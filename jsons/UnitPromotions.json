@@ -67,7 +67,8 @@
     "uniques": ["[+15]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Ranged] units>",
                "[+30]% Strength <when attacking> <vs [Armored] units>",
-               "[+1] Range"],
+               "[+1] Range",
+               "Heals [10] damage if it kills a unit"],
     "prerequisites":["Стальная атака I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
