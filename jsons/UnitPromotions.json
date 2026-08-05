@@ -93,7 +93,7 @@
     "uniques": ["[+10]% Strength <when attacking>",
                 "[+1] Movement",
                 "[+1] Sight",
-                "[+10]% XP gained from combat"
+                "[+10]% XP gained from combat"]
     "prerequisites": ["Баланс I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   }
