@@ -13,7 +13,7 @@
 
   
 {
-    "name": "Степной кодекс",
+    "name": "Стальной кодекс",
     "uniques": [
         "Comment [Доступ к уникальным улучшениям Казахстана]"
     ]
@@ -21,7 +21,7 @@
 {
     "name": "Стальная защита I",
     "uniques": ["[+15]% Strength <when defending>"],
-    "prerequisites": ["Степной кодекс"],
+    "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     },
   {
@@ -36,7 +36,7 @@
         "name": "Кевлар III",
         "uniques": ["[+10]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
-                    "[+33]% Strength <when defending> <vs [Ranged] units"],
+                    "[+33]% Strength <when defending> <vs [Ranged] units>"],
         "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
         "prerequisites": ["Кевлар II"],
   },
@@ -44,7 +44,7 @@
         "name": "Кевлар IV"
         "uniques": ["[+10]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
-                    "[+34]% Strength <when defending> <vs [Ranged] units",
+                    "[+34]% Strength <when defending> <vs [Ranged] units>",
                     "[+30]% Strength <when attacking [City] units>"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
         "prerequisites": ["Кевлар III"],
@@ -52,14 +52,14 @@
 {
     "name": "Стальная атака I",
     "uniques": ["[+15]% Strength <when attacking>"],
-    "prerequisites": ["Степной кодекс"],
+    "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     }
   {
     "name": "Баланс I",
-    "uniques": ["[+7]% Strength <when attacking>",
-                "[+7]% Strength <when different>"],
-    "prerequisites": ["Степной кодекс"],
+    "uniques": ["[+8]% Strength <when attacking>",
+                "[+8]% Strength <when defending>"],
+    "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   }
 ]
