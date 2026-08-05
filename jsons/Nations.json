@@ -28,11 +28,9 @@
     "uniques": [
       "New [Military] units start with [500] XP [in all cities]",
       "[-95]% XP required for promotions",
+      "[Land] units gain the [Степной Кодекс] promotion <hidden from users>",
       
-      "All newly-trained [Water] units [in all cities] receive the [Степной кодекс] promotion",
-      "All newly-trained [Melee] units [in all cities] receive the [Батыр] promotion",
-      "All newly-trained [Land] units [in all cities] receive the [Степной кодекс] promotion",
-      "All newly-trained [Air] units [in all cities] receive the [Степная атака I] promotion"
+
     ]
   }
 ]
