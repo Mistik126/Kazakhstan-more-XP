@@ -1,7 +1,7 @@
 [
   {
     "name": "Степной наездник",
-    "uniques": ["[+25]% Strength <when fighting in [Plains] tiles>"],
+    "uniques": ["[+25]% Strength <when fighting in [Plain] tiles>"],
     "unitTypes": ["Mounted"]
   },
   {
@@ -63,14 +63,14 @@
   },
   {
     "name": "Степной воин II",
-    "uniques": ["[+15]% Strength <in [Plains] tiles>", "Ignores terrain cost", "+1 Visibility Range"],
+    "uniques": ["[+15]% Strength <in [Plains] tiles>", "Ignores terrain cost", "[+1] Sight"],
     "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
     "uniqueTo": "Казахстан",
     "prerequisites": ["Степной воин I"]
   },
   {
     "name": "Степной воин III",
-    "uniques": ["[+25]% Strength <in [Plains] tiles>", "Ignores terrain cost", "+1 Visibility Range", "Can move after attacking"],
+    "uniques": ["[+25]% Strength <in [Plains] tiles>", "Ignores terrain cost", "[+1] Sight", "Can move after attacking"],
     "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
     "uniqueTo": "Казахстан",
     "prerequisites": ["Степной воин II"]
