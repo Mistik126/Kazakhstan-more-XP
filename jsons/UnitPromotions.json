@@ -26,7 +26,8 @@
     },
   {
     "name": "Степная защита II",
-    "uniques": ["[+15]% Strength<when defending>"],
+    "uniques": ["[+15]% Strength<when defending>",
+                "[+50]% Strength <when defending> <vs [Ranged] units>" ],
     "prerequisites": ["Степная защита I"],
     "unitTypes": ["Sword","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
 
