@@ -50,10 +50,26 @@
         "prerequisites": ["Кевлар III"],
   },
   {
-    "name": "Дредноут II"
+    "name": "Дредноут I"
     "uniques": ["[+5]% Strength <when defending>",
                 "[+20]% Strength <when fighting in [FriendlyLand] tiles>" ],
     "prerequisites": ["Стальная защита I"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+    
+  },
+  {
+    "name": "Дредноут II"
+    "uniques": ["[+5]% Strength <when defending>",
+                "[+30]% Strength <when fighting in [FriendlyLand] tiles>" ],
+    "prerequisites": ["Дредноут I"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+    
+  },
+  {
+    "name": "Дредноут III"
+    "uniques": ["[+10]% Strength <when defending>",
+                "[+50]% Strength <when fighting in [FriendlyLand] tiles>" ],
+    "prerequisites": ["Дредноут II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
   },
