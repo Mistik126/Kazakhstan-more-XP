@@ -45,7 +45,7 @@
         "uniques": ["[+10]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+34]% Strength <when defending> <vs [Ranged] units>",
-                    "[+30]% Strength <when attacking [City] units>"]
+                    "[+30]% Strength <vs cities>"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
         "prerequisites": ["Кевлар III"],
   },
@@ -54,7 +54,14 @@
     "uniques": ["[+15]% Strength <when attacking>"],
     "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
-    }
+    },
+  {
+    "name": "Killer",
+    "unques": ["[+10]% Strength <when attaking>",
+               "[+30]% Strength <when attacking> <vs [Ranged] units>"],
+    "prerequisites":["Стальная атака I"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
   {
     "name": "Баланс I",
     "uniques": ["[+8]% Strength <when attacking>",
