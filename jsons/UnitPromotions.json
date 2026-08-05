@@ -52,7 +52,7 @@
   {
     "name": "Дредноут II"
     "uniques": ["[+5]% Strength <when defending>",
-                "[+20]% Strength <when defending in [FriendlyLand] tiles>" ],
+                "[+20]% Strength <when fighting in [FriendlyLand] tiles>" ],
     "prerequisites": ["Стальная защита I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
