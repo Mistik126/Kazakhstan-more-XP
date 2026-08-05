@@ -25,7 +25,7 @@
     "unitTypes": ["Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     },
   {
-    "name": "Степная защита II",
+    "name": "Кевлар II",
     "uniques": ["[+15]% Strength<when defending>",
                 "[+50]% Strength <when defending> <vs [Ranged] units>" ],
     "prerequisites": ["Степная защита I"],
@@ -33,12 +33,11 @@
 
   },
   {
-        "name": "Степная защита III",
+        "name": "Кевлар III",
         "uniques": ["[+15]% Strength<when defending>",
-                    "[+50]% Strength <when defending> <va [Air] units>",
-                    "[+20]% Strength <when fighting in [FriendlyLand] tiles>"]
+                    "[+50]% Strength <when defending> <vs [Air] units>",]
         "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
-        "prerequisites": ["Степная защита II"],
+        "prerequisites": ["Кевлар II"],
   },
 {
     "name": "Степная атака I",
