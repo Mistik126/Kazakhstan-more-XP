@@ -83,8 +83,8 @@
   },
   {
     "name": "Баланс I",
-    "uniques": ["[+8]% Strength <when attacking>",
-                "[+8]% Strength <when defending>"],
+    "uniques": ["[+10]% Strength <when attacking>",
+                "[+10]% Strength <when defending>"],
     "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -99,7 +99,7 @@
   },
   {
     "name": "Доходяга II",
-    "uniques": ["[+10]% Strength <when defining>",
+    "uniques": ["[+10]% Strength <when definding>",
                 "[+1] Movement",
                 "[+1] Sight",
                 "[+20]% XP gained from combat"]
