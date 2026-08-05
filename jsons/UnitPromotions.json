@@ -89,12 +89,30 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
 {
-    "name": "Доходяга",
+    "name": "Доходяга I",
     "uniques": ["[+10]% Strength <when attacking>",
                 "[+1] Movement",
                 "[+1] Sight",
                 "[+10]% XP gained from combat"]
     "prerequisites": ["Баланс I"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "Доходяга II",
+    "uniques": ["[+10]% Strength <when defining>",
+                "[+1] Movement",
+                "[+1] Sight",
+                "[+20]% XP gained from combat"]
+    "prerequisites": ["Доходяга I"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "Доходяга III",
+    "uniques": ["[+20]% Strength <when attacking>",
+                "[+1] Movement",
+                "[+1] Sight",
+                "[+30]% XP gained from combat"]
+    "prerequisites": ["Доходяга II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   }
 ]
