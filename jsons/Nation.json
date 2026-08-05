@@ -1,1 +1,36 @@
-
+[
+  {
+    "name": "Казахстан",
+    "leaderName": "Абылай-хан",
+    "adjective": "Казахский",
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Domination",
+    
+    "startIntroPart1": "Великая степь зовёт...",
+    "startIntroPart2": "Объедини кочевников и стань повелителем Евразии!",
+    
+    "declaringWar": "Вы ступили на священную землю!",
+    "attacked": "Защищайте аулы!",
+    "defeated": "Ках... время уходит, но дух степи вечен.",
+    "introduction": "Приветствую тебя, путник. Я хан этого народа.",
+    "neutralHello": "Мир твоему дому.",
+    "hateHello": "Что тебе нужно, чужеземец?",
+    "tradeRequest": "Обмен — выгодное дело.",
+    
+    "cities": [
+      "Астана", "Алматы", "Шымкент", "Караганда", "Актобе",
+      "Тараз", "Павлодар", "Усть-Каменогорск", "Семей", "Кызылорда"
+    ],
+    
+    "outerColor": [0, 175, 235],
+    "innerColor": [255, 215, 0],
+    
+    "uniques": [
+      "New [Military] units start with [500] XP [in all cities]",
+      "[+1400]% XP from combat",
+      
+      "All newly-trained [Mounted] units [in all cities] receive the [Степной наездник] promotion",
+      "All newly-trained [Melee] units [in all cities] receive the [Батыр] promotion"
+    ]
+  }
+]
