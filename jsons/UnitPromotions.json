@@ -22,14 +22,14 @@
     "name": "Степная защита I",
     "uniques": ["[+15]% Strength <when defending>"],
     "prerequisites": ["Степной кодекс"],
-    "unitTypes": ["Sword","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+    "unitTypes": ["Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     },
   {
     "name": "Степная защита II",
     "uniques": ["[+15]% Strength<when defending>",
                 "[+50]% Strength <when defending> <vs [Ranged] units>" ],
     "prerequisites": ["Степная защита I"],
-    "unitTypes": ["Sword","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+    "unitTypes": ["Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
 
   },
   {
@@ -37,7 +37,7 @@
         "uniques": ["[+15]% Strength<when defending>",
                     "[+50]% Strength <when defending against [Air] units>",
                     "[+20]% Strength <when fighting in friendly territory>"]
-        "unitTypes": ["Melee", "Mounted", "Ranged", "Siege", "Armor"],
+        "unitTypes": ["Melee","Archery", "Mounted", "Ranged", "Siege", "Armor"],
         "prerequisites": ["Степная защита II"],
   },
 {
