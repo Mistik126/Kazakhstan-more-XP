@@ -29,21 +29,21 @@
     "uniques": ["[+15]% Strength<when defending>",
                 "[+50]% Strength <when defending> <vs [Ranged] units>" ],
     "prerequisites": ["Степная защита I"],
-    "unitTypes": ["Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
 
   },
   {
         "name": "Степная защита III",
         "uniques": ["[+15]% Strength<when defending>",
-                    "[+50]% Strength <when defending against [Air] units>",
-                    "[+20]% Strength <when fighting in friendly territory>"]
-        "unitTypes": ["Melee","Archery", "Mounted", "Ranged", "Siege", "Armor"],
+                    "[+50]% Strength <when defending> <va [Air] units>",
+                    "[+20]% Strength <when fighting in [FriendlyLand] tiles>"]
+        "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
         "prerequisites": ["Степная защита II"],
   },
 {
     "name": "Степная атака I",
     "uniques": ["[+15]% Strength <when attacking>"],
     "prerequisites": ["Степной кодекс"],
-    "unitTypes": ["Sword","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     }
 ]
