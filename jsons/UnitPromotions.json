@@ -93,7 +93,7 @@
     "uniques": ["[+10]% Strength <when attacking>",
                 "[+1] Movement",
                 "[+1] Sight",
-                "[+10]% XP gained from combat"]
+                "[+20]% XP gained from combat"]
     "prerequisites": ["Баланс I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -102,7 +102,8 @@
     "uniques": ["[+10]% Strength <when defending>",
                 "[+1] Movement",
                 "[+1] Sight",
-                "[+20]% XP gained from combat"]
+                "[+1] Range",
+                "[+30]% XP gained from combat"]
     "prerequisites": ["Доходяга I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -111,7 +112,9 @@
     "uniques": ["[+20]% Strength <when attacking>",
                 "[+1] Movement",
                 "[+1] Sight",
-                "[+30]% XP gained from combat"]
+                "[+1] Range",
+                "[+50]% XP gained from combat",
+                 "Withdraws before melee combat <with [50]% chance>"]
     "prerequisites": ["Доходяга II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   }
