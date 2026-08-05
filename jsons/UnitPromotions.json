@@ -99,7 +99,7 @@
   },
   {
     "name": "Доходяга II",
-    "uniques": ["[+10]% Strength <when definding>",
+    "uniques": ["[+10]% Strength <when defending>",
                 "[+1] Movement",
                 "[+1] Sight",
                 "[+20]% XP gained from combat"]
