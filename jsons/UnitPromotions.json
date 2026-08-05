@@ -32,6 +32,14 @@
     "unitTypes": ["Sword","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
 
   },
+  {
+        "name": "Степная защита III",
+        "uniques": ["[+15]% Strength<when defending>",
+                    "[+50]% Strength <when defending against [Air] units>",
+                    "[+20]% Strength <when fighting in friendly territory>"]
+        "unitTypes": ["Melee", "Mounted", "Ranged", "Siege", "Armor"],
+        "prerequisites": ["Защита II"],
+  },
 {
     "name": "Степная атака I",
     "uniques": ["[+15]% Strength <when attacking>"],
