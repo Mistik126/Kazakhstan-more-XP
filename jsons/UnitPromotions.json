@@ -7,7 +7,7 @@
   {
     "name": "Батыр",
     "uniques": ["[+15]% Strength <when defending>", "[+10]% Strength <when attacking>"],
-    "unitTypes": ["Melee"]
+    "unitTypes": ["Military"]
   },
 
 
@@ -15,7 +15,7 @@
    "name": "Степная защита I",
     "uniques": ["[+15]% Strength <when defending>"],
     "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
-    "uniqueTo": "Казахстан"
+    "prerequisites": ["Батыр"]
   },
   {
     "name": "Степная защита II",
