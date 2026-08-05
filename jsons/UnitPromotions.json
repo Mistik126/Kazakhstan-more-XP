@@ -8,5 +8,72 @@
     "name": "Батыр",
     "uniques": ["[+15]% Strength <when defending>", "[+10]% Strength <when attacking>"],
     "unitTypes": ["Melee"]
+  },
+
+  // ===== ВЕТКА ЗАЩИТЫ =====
+  {
+   "name": "Степная защита I",
+    "uniques": ["[+15]% Strength <when defending>"],
+    "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
+    "uniqueTo": "Казахстан"
+  },
+  {
+    "name": "Степная защита II",
+    "uniques": ["[+15]% Strength <when defending>", "+15 HP when healing"],
+    "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
+    "uniqueTo": "Казахстан",
+    "prerequisites": ["Степная защита I"]
+  },
+  {
+    "name": "Степная защита III",
+    "uniques": ["[+25]% Strength <when defending>", "+25 HP when healing"],
+    "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
+    "uniqueTo": "Казахстан",
+    "prerequisites": ["Степная защита II"]
+  },
+
+  // ===== ВЕТКА АТАКИ =====
+  {
+    "name": "Степная атака I",
+    "uniques": ["[+15]% Strength <when attacking>"],
+    "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
+    "uniqueTo": "Казахстан"
+  },
+  {
+    "name": "Степная атака II",
+    "uniques": ["[+15]% Strength <when attacking>", "+10% damage to cities"],
+    "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
+    "uniqueTo": "Казахстан",
+    "prerequisites": ["Степная атака I"]
+  },
+  {
+    "name": "Степная атака III",
+    "uniques": ["[+25]% Strength <when attacking>", "+20% damage to cities"],
+    "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
+    "uniqueTo": "Казахстан",
+    "prerequisites": ["Степная атака II"]
+  },
+
+  // ===== УНИВЕРСАЛЬНАЯ ВЕТКА =====
+  {
+    "name": "Степной воин I",
+    "uniques": ["[+10]% Strength <in [Plains] tiles>", "Ignores terrain cost"],
+    "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
+    "uniqueTo": "Казахстан"
+  },
+  {
+    "name": "Степной воин II",
+    "uniques": ["[+15]% Strength <in [Plains] tiles>", "Ignores terrain cost", "+1 Visibility Range"],
+    "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
+    "uniqueTo": "Казахстан",
+    "prerequisites": ["Степной воин I"]
+  },
+  {
+    "name": "Степной воин III",
+    "uniques": ["[+25]% Strength <in [Plains] tiles>", "Ignores terrain cost", "+1 Visibility Range", "Can move after attacking"],
+    "unitTypes": ["Melee", "Mounted", "Ranged", "Siege"],
+    "uniqueTo": "Казахстан",
+    "prerequisites": ["Степной воин II"]
   }
+
 ]
