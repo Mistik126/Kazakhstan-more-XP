@@ -1,1 +1,12 @@
-
+[
+  {
+    "name": "Степной наездник",
+    "uniques": ["[+25]% Strength <when fighting in [Plains] tiles>"],
+    "unitTypes": ["Mounted"]
+  },
+  {
+    "name": "Батыр",
+    "uniques": ["[+15]% Strength <when defending>", "[+10]% Strength <when attacking>"],
+    "unitTypes": ["Melee"]
+  }
+]
