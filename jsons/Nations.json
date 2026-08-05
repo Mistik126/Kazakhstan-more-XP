@@ -30,9 +30,9 @@
       "[-95]% XP required for promotions",
       
       "All newly-trained [Mounted] units [in all cities] receive the [Степной наездник] promotion",
-      "All newly-trained [Melee, Mounted, Ranged, Siege] units [in all cities] receive the [Батыр] promotion",
-      "All newly-trained [Melee, Mounted, Ranged, Siege] units [in all cities] receive the [Степная защита I] promotion",
-"All newly-trained [Mounted, Melee, Ranged, Siege] units [in all cities] receive the [Степная атака I] promotion"
+      "All newly-trained [Melee] units [in all cities] receive the [Батыр] promotion",
+      "All newly-trained [Melee] units [in all cities] receive the [Степная защита I] promotion",
+      "All newly-trained [Mounted] units [in all cities] receive the [Степная атака I] promotion"
     ]
   }
 ]
