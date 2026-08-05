@@ -26,7 +26,7 @@
     },
   {
     "name": "Кевлар II",
-    "uniques": ["[+10]% Strength<when defending>",
+    "uniques": ["[+10]% Strength <when defending>",
                 "[+33]% Strength <when defending> <vs [Ranged] units>" ],
     "prerequisites": ["Стальная защита I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
