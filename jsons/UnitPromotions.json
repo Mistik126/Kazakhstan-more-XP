@@ -17,8 +17,8 @@
     "uniques": [
         "Comment [Доступ к уникальным улучшениям Казахстана]"
     ],
-    "uniqueTo": "Казахстан"
-},
+    "unitTypes": ["Sword","Mounted","Scout","Siege","Archery", "Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
+    },
 {
     "name": "Степная защита I",
     "uniques": ["[+15]% Strength <when defending>"],
