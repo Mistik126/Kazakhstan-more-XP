@@ -21,12 +21,12 @@
     "name": "Степная защита I",
     "uniques": ["[+15]% Strength <when defending>"],
     "prerequisites": ["Степной кодекс"],
-    "unitTypes": ["Sword","Mounted","Scout","Siege","Archery", "Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
+    "unitTypes": ["Sword","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
     },
 {
     "name": "Степная атака I",
     "uniques": ["[+15]% Strength <when attacking>"],
     "prerequisites": ["Степной кодекс"],
-    "unitTypes": ["Sword","Mounted","Scout","Siege","Archery", "Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
+    "unitTypes": ["Sword","Mounted","Scout","Siege","Ranged", "Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
     }
 ]
