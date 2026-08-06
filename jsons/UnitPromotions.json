@@ -19,41 +19,41 @@
     ]
 },
 {
-    "name": "Стальная защита I",
+    "name": "Стальная защита",
     "uniques": ["[+15]% Strength <when defending>"],
     "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     },
   {
-    "name": "Кевлар II",
+    "name": "Кевлар I",
     "uniques": ["[+10]% Strength <when defending>",
                 "[+33]% Strength <when defending> <vs [Ranged] units>" ],
-    "prerequisites": ["Стальная защита I"],
+    "prerequisites": ["Стальная защита"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
 
   },
   {
-        "name": "Кевлар III",
+        "name": "Кевлар II",
         "uniques": ["[+10]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+33]% Strength <when defending> <vs [Ranged] units>"],
         "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
-        "prerequisites": ["Кевлар II"],
+        "prerequisites": ["Кевлар I"],
   },
   {
-        "name": "Кевлар IV"
+        "name": "Кевлар III"
         "uniques": ["[+10]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+34]% Strength <when defending> <vs [Ranged] units>",
                     "[+30]% Strength <vs cities>"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
-        "prerequisites": ["Кевлар III"],
+        "prerequisites": ["Кевлар II"],
   },
   {
     "name": "Дредноут I"
     "uniques": ["[+5]% Strength <when defending>",
                 "[+20]% Strength <when fighting in [FriendlyLand] tiles>" ],
-    "prerequisites": ["Стальная защита I"],
+    "prerequisites": ["Стальная защита"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
   },
@@ -75,7 +75,7 @@
   },
   
 {
-    "name": "Стальная атака I",
+    "name": "Стальная атака",
     "uniques": ["[+15]% Strength <when attacking>"],
     "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
@@ -84,7 +84,7 @@
     "name": "Killer",
     "uniques": ["[+10]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Ranged] units>"],
-    "prerequisites":["Стальная атака I"],
+    "prerequisites":["Стальная атака"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
@@ -98,7 +98,14 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Баланс I",
+    "name": "Осада I",
+    "uniques": ["[+10]% Strength <when attacking>",
+               "[+30]% Strength <when attacking> <vs cities"],
+    "prerequisites":["Стальная атака"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "Баланс",
     "uniques": ["[+10]% Strength <when attacking>",
                 "[+10]% Strength <when defending>"],
     "prerequisites": ["Стальной кодекс"],
@@ -110,7 +117,7 @@
                 "[+1] Movement",
                 "[+1] Sight",
                 "[+20]% XP gained from combat"]
-    "prerequisites": ["Баланс I"],
+    "prerequisites": ["Баланс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
