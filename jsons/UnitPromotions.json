@@ -100,7 +100,7 @@
   {
     "name": "Осада I",
     "uniques": ["[+10]% Strength <when attacking>",
-               "[+30]% Strength <when attacking> <vs cities"],
+               "[+30]% Strength <when attacking> <vs cities>"],
     "prerequisites":["Стальная атака"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
