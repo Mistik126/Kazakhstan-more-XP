@@ -255,6 +255,8 @@
     "name": "Партизан III",
     "uniques": [ "[+50]% Strength <when fighting in [Forest] tiles>",
                  "[+60]% Strength <when fighting in [Jungle] tiles>",
+                 "Double movement in [Forest]",
+                 "Double movement in [Jungle]",
                  "Can move after attacking",
                  "[1] additional attacks per turn"]
     "prerequisites": ["Партизан II"],
