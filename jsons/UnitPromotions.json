@@ -173,10 +173,18 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Партизан",
+    "name": "Партизан I",
     "uniques": [ "[+25]% Strength <when fighting in [Forest] tiles>",
-                 "[+25]% Strength <when fighting in [Jungle] tiles>",]
+                 "[+25]% Strength <when fighting in [Jungle] tiles>",
+                 "[+1] Sight"]
     "prerequisites": ["Баланс"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "Партизан II",
+    "uniques": [ "[+35]% Strength <when fighting in [Forest] tiles>",
+                 "[+30]% Strength <when fighting in [Jungle] tiles>"]
+    "prerequisites": ["Партизан I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   }
 ]
