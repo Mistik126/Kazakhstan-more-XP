@@ -106,7 +106,7 @@
                "Eliminates combat penalty for attacking over a river",
                "Eliminates combat penalty for attacking across a coast",
                "Heals [30] damage if it kills a unit"],
-    "prerequisites":["Killer"],
+    "prerequisites":["SuperKill"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
@@ -114,6 +114,24 @@
     "uniques": ["[+10]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs cities>"],
     "prerequisites":["Стальная атака"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "Осада II",
+    "uniques": ["[+10]% Strength <when attacking>",
+               "[+30]% Strength <when attacking> <vs cities>",
+               "[+20]% Strength <when defending> <vs [Ranged] units",
+               "[+1] Range"]
+    "prerequisites":["Осада I"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "Осада III",
+    "uniques": ["[+10]% Strength <when attacking>",
+               "[+40]% Strength <when attacking> <vs cities>",
+               "[+1] Sight",
+               "Can move after attacking"],
+    "prerequisites":["Осада II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
