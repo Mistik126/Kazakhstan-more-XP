@@ -140,7 +140,7 @@
     "name": "Шторм II",
     "uniques": ["[+15]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs cities>",
-               "[+20]% Strength <when defending> <vs [Ranged] units>",
+               "[+20]% Strength <when defending> <vs cities>",
                "[+1] Range"]
     "prerequisites":["Шторм I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
