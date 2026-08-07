@@ -47,7 +47,7 @@
         "uniques": ["[+10]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+34]% Strength <when defending> <vs [Ranged] units>",
-                    "[+30]% Strength <vs cities>"]
+                    "[+30]% Strength <when defending> <vs cities>"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
         "prerequisites": ["Кевлар II"],
   },
