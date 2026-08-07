@@ -120,7 +120,7 @@
     "name": "Осада II",
     "uniques": ["[+10]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs cities>",
-               "[+20]% Strength <when defending> <vs [Ranged] units",
+               "[+20]% Strength <when defending> <vs [Ranged] units>",
                "[+1] Range"]
     "prerequisites":["Осада I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
