@@ -137,6 +137,7 @@
     "uniques": ["[+10]% Strength <when attacking>",
                "[+40]% Strength <when attacking> <vs cities>",
                "[+1] Sight",
+               "[1] additional attacks per turn",
                "Can move after attacking"],
     "prerequisites":["Шторм II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
