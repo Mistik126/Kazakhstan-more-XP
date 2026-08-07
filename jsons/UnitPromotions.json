@@ -51,7 +51,7 @@
   },
   {
     "name": "Дредноут I"
-    "uniques": ["[+5]% Strength <when defending>",
+    "uniques": ["[+10]% Strength <when defending>",
                 "[+20]% Strength <when fighting in [FriendlyLand] tiles>" ],
     "prerequisites": ["Стальная защита"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
@@ -59,7 +59,7 @@
   },
   {
     "name": "Дредноут II"
-    "uniques": ["[+5]% Strength <when defending>",
+    "uniques": ["[+10]% Strength <when defending>",
                 "[+30]% Strength <when fighting in [FriendlyLand] tiles>" ],
     "prerequisites": ["Дредноут I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
@@ -91,7 +91,7 @@
     "name": "SuperKill",
     "uniques": ["[+15]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Ranged] units>",
-               "[+30]% Strength <when attacking> <vs [Armored] units>",
+               "[+30]% Strength <when attacking> <vs [Mounted] units>",
                "[+1] Range",
                "Can move after attacking",
                "Heals [10] damage if it kills a unit"],
@@ -102,8 +102,9 @@
   "name": "OverKill",
     "uniques": ["[+20]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Wounded] units>",
-               "[+30]% Strength <when attacking> <vs [Mounted] units>",
-               "No terrain penalties for ranged attacks",
+               "[+30]% Strength <when attacking> <vs [Armored] units>",
+               "Eliminates combat penalty for attacking over a river",
+               "Eliminates combat penalty for attacking across a coast",
                "Heals [30] damage if it kills a unit"],
     "prerequisites":["Killer"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
