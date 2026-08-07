@@ -79,14 +79,16 @@
   
 {
     "name": "Стальная атака",
-    "uniques": ["[+15]% Strength <when attacking>"],
+    "uniques": ["[+15]% Strength <when attacking>",
+                "Comment [Ветка прокачки атаки]"],
     "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     },
   {
     "name": "Killer",
     "uniques": ["[+10]% Strength <when attacking>",
-               "[+30]% Strength <when attacking> <vs [Ranged] units>"],
+               "[+30]% Strength <when attacking> <vs [Ranged] units>",
+               "Comment [Убийца вражеских юнитов]"],
     "prerequisites":["Стальная атака"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -114,34 +116,36 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Осада I",
+    "name": "Шторм I",
     "uniques": ["[+10]% Strength <when attacking>",
-               "[+30]% Strength <when attacking> <vs cities>"],
+               "[+30]% Strength <when attacking> <vs cities>",
+               "Comment [Ветка прокачки осадного урона]"],
     "prerequisites":["Стальная атака"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Осада II",
+    "name": "Шторм II",
     "uniques": ["[+10]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs cities>",
                "[+20]% Strength <when defending> <vs [Ranged] units>",
                "[+1] Range"]
-    "prerequisites":["Осада I"],
+    "prerequisites":["Шторм I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Осада III",
+    "name": "Шторм III",
     "uniques": ["[+10]% Strength <when attacking>",
                "[+40]% Strength <when attacking> <vs cities>",
                "[+1] Sight",
                "Can move after attacking"],
-    "prerequisites":["Осада II"],
+    "prerequisites":["Шторм II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
     "name": "Баланс",
     "uniques": ["[+10]% Strength <when attacking>",
-                "[+10]% Strength <when defending>"],
+                "[+10]% Strength <when defending>",
+                "Comment [Не можешь выбрать между атакой и защитой? Балансируй!]"],
     "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -150,7 +154,8 @@
     "uniques": ["[+10]% Strength <when attacking>",
                 "[+1] Movement",
                 "[+1] Sight",
-                "[+20]% XP gained from combat"]
+                "[+20]% XP gained from combat",
+                "Comment [Исследовательская ветка. Проходи большее расстояние за ход, оперативно реагируй на изменения фронта]"]
     "prerequisites": ["Баланс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -179,7 +184,8 @@
     "name": "Партизан I",
     "uniques": [ "[+25]% Strength <when fighting in [Forest] tiles>",
                  "[+25]% Strength <when fighting in [Jungle] tiles>",
-                 "[+1] Sight"]
+                 "[+1] Sight",
+                 "Comment [Играй от рельефа местности, устраивай засады]"]
     "prerequisites": ["Баланс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
