@@ -119,7 +119,7 @@
     {
   "name": "MEGAOBERKILL!!!",
     "uniques": ["[+25]% Strength <when attacking>",
-               "[+50,]% Strength <when attacking> <vs [Wounded] units>",
+               "[+50]% Strength <when attacking> <vs [Wounded] units>",
                "[+30]% Strength <when attacking> <vs [Armored] units>",
                "Eliminates combat penalty for attacking over a river",
                "Heals [50] damage if it kills a unit",
