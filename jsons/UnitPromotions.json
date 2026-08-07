@@ -52,7 +52,7 @@
   {
     "name": "Дредноут I"
     "uniques": ["[+10]% Strength <when defending>",
-                "[+20]% Strength <when fighting in [FriendlyLand] tiles>" ],
+                "[+20]% Strength <when fighting in [Friendly Land] tiles>" ],
     "prerequisites": ["Стальная защита"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
@@ -60,7 +60,7 @@
   {
     "name": "Дредноут II"
     "uniques": ["[+10]% Strength <when defending>",
-                "[+30]% Strength <when fighting in [FriendlyLand] tiles>" ],
+                "[+30]% Strength <when fighting in [Friendly Land] tiles>" ],
     "prerequisites": ["Дредноут I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
@@ -68,7 +68,7 @@
   {
     "name": "Дредноут III"
     "uniques": ["[+10]% Strength <when defending>",
-                "[+50]% Strength <when fighting in [FriendlyLand] tiles>" ],
+                "[+50]% Strength <when fighting in [Friendly Land] tiles>" ],
     "prerequisites": ["Дредноут II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
