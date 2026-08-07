@@ -93,7 +93,18 @@
                "[+30]% Strength <when attacking> <vs [Ranged] units>",
                "[+30]% Strength <when attacking> <vs [Armored] units>",
                "[+1] Range",
+               "Can move after attacking",
                "Heals [10] damage if it kills a unit"],
+    "prerequisites":["Killer"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+  "name": "OverKill",
+    "uniques": ["[+20]% Strength <when attacking>",
+               "[+30]% Strength <when attacking> <vs [Wounded] units>",
+               "[+30]% Strength <when attacking> <vs [Mounted] units>",
+               "No terrain penalties for ranged attacks",
+               "Heals [30] damage if it kills a unit"],
     "prerequisites":["Killer"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
