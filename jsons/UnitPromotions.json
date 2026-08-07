@@ -117,13 +117,13 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
     {
-  "name": "MEGAOBERKILL!!!",
+  "name": "MEGAOVERKILL",
     "uniques": ["[+25]% Strength <when attacking>",
                "[+50]% Strength <when attacking> <vs [Wounded] units>",
                "[+30]% Strength <when attacking> <vs [Armored] units>",
                "Eliminates combat penalty for attacking over a river",
                "Heals [50] damage if it kills a unit",
-               "[+20]% XP gained from combat"]
+               "[+50]% XP gained from combat"]
     "prerequisites":["OverKill"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -159,7 +159,6 @@
     "uniques": ["[+25]% Strength <when attacking>",
                "[+75]% Strength <when attacking> <vs cities>",
                "[+1] Movement",
-               "[1] additional attacks per turn",
                "[+50]% XP gained from combat"],
     "prerequisites":["Шторм III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
