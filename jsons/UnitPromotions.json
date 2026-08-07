@@ -37,7 +37,7 @@
   },
   {
         "name": "Кевлар II",
-        "uniques": ["[+10]% Strength <when defending>",
+        "uniques": ["[+15]% Strength <when defending>",
                     "[+30]% Strength <when defending> <vs cities>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+33]% Strength <when defending> <vs [Ranged] units>"],
@@ -46,7 +46,7 @@
   },
   {
         "name": "Кевлар III"
-        "uniques": ["[+10]% Strength <when defending>",
+        "uniques": ["[+20]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+34]% Strength <when defending> <vs [Ranged] units>",
                     "[+30]% Strength <when defending> <vs cities>"]
@@ -64,7 +64,7 @@
   },
   {
     "name": "Дредноут II"
-    "uniques": ["[+10]% Strength <when defending>",
+    "uniques": ["[+15]% Strength <when defending>",
                 "[+30]% Strength <when fighting in [Friendly Land] tiles>" ],
     "prerequisites": ["Дредноут I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
@@ -72,7 +72,7 @@
   },
   {
     "name": "Дредноут III"
-    "uniques": ["[+10]% Strength <when defending>",
+    "uniques": ["[+20]% Strength <when defending>",
                 "[+50]% Strength <when fighting in [Friendly Land] tiles>" ],
     "prerequisites": ["Дредноут II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
@@ -110,11 +110,21 @@
     "uniques": ["[+20]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Wounded] units>",
                "[+30]% Strength <when attacking> <vs [Armored] units>",
-               "Eliminates combat penalty for attacking over a river",
                "Eliminates combat penalty for attacking across a coast",
                "Heals [30] damage if it kills a unit",
                "[1] additional attacks per turn"]
     "prerequisites":["SuperKill"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+    {
+  "name": "MEGAOBERKILL!!!",
+    "uniques": ["[+25]% Strength <when attacking>",
+               "[+50,]% Strength <when attacking> <vs [Wounded] units>",
+               "[+30]% Strength <when attacking> <vs [Armored] units>",
+               "Eliminates combat penalty for attacking over a river",
+               "Heals [50] damage if it kills a unit",
+               "[+20]% XP gained from combat"]
+    "prerequisites":["OverKill"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
@@ -127,7 +137,7 @@
   },
   {
     "name": "Шторм II",
-    "uniques": ["[+10]% Strength <when attacking>",
+    "uniques": ["[+15]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs cities>",
                "[+20]% Strength <when defending> <vs [Ranged] units>",
                "[+1] Range"]
@@ -136,12 +146,22 @@
   },
   {
     "name": "Шторм III",
-    "uniques": ["[+10]% Strength <when attacking>",
+    "uniques": ["[+20]% Strength <when attacking>",
                "[+40]% Strength <when attacking> <vs cities>",
                "[+1] Sight",
                "[1] additional attacks per turn",
                "Can move after attacking"],
     "prerequisites":["Шторм II"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "Шторм Z",
+    "uniques": ["[+25]% Strength <when attacking>",
+               "[+75]% Strength <when attacking> <vs cities>",
+               "[+1] Movement",
+               "[1] additional attacks per turn",
+               "[+50]% XP gained from combat"],
+    "prerequisites":["Шторм III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
