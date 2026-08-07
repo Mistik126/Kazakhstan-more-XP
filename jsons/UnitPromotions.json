@@ -57,14 +57,14 @@
         "prerequisites": ["Кевлар II"],
   },
   {
-        "name": "???"
+        "name": "Терминатор"
         "uniques": ["[+25]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+50]% Strength <when defending> <vs [Ranged] units>",
                     "[+50]% Strength <when defending> <vs cities>",
                     "[+50]% XP gained from combat"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
-        "prerequisites": ["Кевлар II"],
+        "prerequisites": ["Кевлар III"],
   },
   {
     "name": "Дредноут I"
@@ -220,7 +220,8 @@
                 "[+1] Sight",
                 "[+1] Range",
                 "[+50]% XP gained from combat",
-                 "Withdraws before melee combat <with [50]% chance>"]
+                "Ignores terrain cost",
+                "Withdraws before melee combat <with [50]% chance>"]
     "prerequisites": ["Доходяга II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
