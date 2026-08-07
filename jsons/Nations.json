@@ -1,6 +1,6 @@
 [
   {
-    "name": "Славяне",
+    "name": "Русы",
     "leaderName": "Князь Багиров",
     "adjective": "Славянский",
     "startBias": ["Plains"],
@@ -26,8 +26,8 @@
     "innerColor": [179, 0, 0],
     
     "uniques": [
-      "New [Military] units start with [500] XP [in all cities]",
-      "[-75]% XP required for promotions",
+      "New [Military] units start with [50] XP [in all cities]",
+      "[-25]% XP required for promotions",
       "[Land] units gain the [Стальной кодекс] promotion <hidden from users>",
       
 
