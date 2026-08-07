@@ -57,6 +57,16 @@
         "prerequisites": ["Кевлар II"],
   },
   {
+        "name": "???"
+        "uniques": ["[+25]% Strength <when defending>",
+                    "[+50]% Strength <when defending> <vs [Air] units>",
+                    "[+50]% Strength <when defending> <vs [Ranged] units>",
+                    "[+50]% Strength <when defending> <vs cities>",
+                    "[+50]% XP gained from combat"]
+                    "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
+        "prerequisites": ["Кевлар II"],
+  },
+  {
     "name": "Дредноут I"
     "uniques": ["[+10]% Strength <when defending>",
                 "[+20]% Strength <when fighting in [Friendly Land] tiles>",
@@ -84,9 +94,10 @@
     
   },
   {
-    "name": "Пограничник"
+    "name": "Линкор"
     "uniques": ["[+25]% Strength <when defending>",
-                "[+75]% Strength <when defending in [Friendly Land] tiles>"],
+                "[+75]% Strength <when fighting in [Friendly Land] tiles>",
+                "[+50]% XP gained from combat"],
     "prerequisites": ["Дредноут III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
@@ -187,9 +198,8 @@
 {
     "name": "Доходяга I",
     "uniques": ["[+10]% Strength <when attacking>",
-                "[+1] Movement",
                 "[+1] Sight",
-                "[+20]% XP gained from combat",
+                "[+25]% XP gained from combat",
                 "Comment [Проходи большее расстояние за ход, оперативно реагируй на изменения фронта, получай больше опыта]"]
     "prerequisites": ["Баланс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
@@ -198,9 +208,8 @@
     "name": "Доходяга II",
     "uniques": ["[+10]% Strength <when defending>",
                 "[+1] Movement",
-                "[+1] Sight",
                 "[+1] Range",
-                "[+30]% XP gained from combat"]
+                "[+25]% XP gained from combat"]
     "prerequisites": ["Доходяга I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -213,6 +222,16 @@
                 "[+50]% XP gained from combat",
                  "Withdraws before melee combat <with [50]% chance>"]
     "prerequisites": ["Доходяга II"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "Бродяга",
+    "uniques": ["[+25]% Strength <when attacking>",
+                "[+1] Movement",
+                "[+1] Sight",
+                "[+100]% XP gained from combat",
+                 "Withdraws before melee combat <with [75]% chance>"]
+    "prerequisites": ["Доходяга III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
