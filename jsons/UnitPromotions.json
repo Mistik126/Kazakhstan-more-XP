@@ -28,6 +28,7 @@
   {
     "name": "Кевлар I",
     "uniques": ["[+10]% Strength <when defending>",
+                "[+20]% Strength <when defending> <vs cities>",
                 "[+33]% Strength <when defending> <vs [Ranged] units>",
                 "Comment [Позволяет твоему воиску дольше стоять под шквалом атак вражеских дальнобойных орудий (в т.ч. городов)]"],
     "prerequisites": ["Стальная защита"],
@@ -37,6 +38,7 @@
   {
         "name": "Кевлар II",
         "uniques": ["[+10]% Strength <when defending>",
+                    "[+30]% Strength <when defending> <vs cities>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+33]% Strength <when defending> <vs [Ranged] units>"],
         "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
