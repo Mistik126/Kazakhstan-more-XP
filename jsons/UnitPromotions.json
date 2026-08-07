@@ -50,7 +50,9 @@
         "uniques": ["[+20]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+34]% Strength <when defending> <vs [Ranged] units>",
-                    "[+30]% Strength <when defending> <vs cities>"]
+                    "[+30]% Strength <when defending> <vs cities>",
+                    "[1] additional attacks per turn",
+                    "Can move after attacking"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
         "prerequisites": ["Кевлар II"],
   },
@@ -74,8 +76,18 @@
   {
     "name": "Дредноут III"
     "uniques": ["[+20]% Strength <when defending>",
-                "[+50]% Strength <when fighting in [Friendly Land] tiles>" ],
+                "[+50]% Strength <when fighting in [Friendly Land] tiles>",
+                "[1] additional attacks per turn",
+                "Can move after attacking"],
     "prerequisites": ["Дредноут II"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+    
+  },
+  {
+    "name": "Пограничник"
+    "uniques": ["[+25]% Strength <when defending>",
+                "[+75]% Strength <when defending in [Friendly Land] tiles>"],
+    "prerequisites": ["Дредноут III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
   },
