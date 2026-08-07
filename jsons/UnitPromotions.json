@@ -29,7 +29,7 @@
     "name": "Кевлар I",
     "uniques": ["[+10]% Strength <when defending>",
                 "[+33]% Strength <when defending> <vs [Ranged] units>",
-                "Comment [Ветка защиты от дальнобойных юнитов и городов]"],
+                "Comment [Позволяет твоему воиску дольше стоять под шквалом атак вражеских дальнобойных орудий (в т.ч. городов)]"],
     "prerequisites": ["Стальная защита"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
 
@@ -55,7 +55,7 @@
     "name": "Дредноут I"
     "uniques": ["[+10]% Strength <when defending>",
                 "[+20]% Strength <when fighting in [Friendly Land] tiles>",
-                "Comment [Ветка защиты своих земель]"],
+                "Comment [Защити свои земли! Сделай неубиваемую ходячую крепость, но только на дружественной территории]"],
     "prerequisites": ["Стальная защита"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
@@ -88,7 +88,7 @@
     "name": "Killer",
     "uniques": ["[+10]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Ranged] units>",
-               "Comment [Убийца вражеских юнитов]"],
+               "Comment [Убийца вражеских юнитов, самое то перемалывать армии недругов, но слаб против их городов]"],
     "prerequisites":["Стальная атака"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -119,7 +119,7 @@
     "name": "Шторм I",
     "uniques": ["[+10]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs cities>",
-               "Comment [Ветка прокачки осадного урона]"],
+               "Comment [Вместо мостов противник строит стены? Вкачай Шторм Z, увеличивает осадный урон]"],
     "prerequisites":["Стальная атака"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -155,7 +155,7 @@
                 "[+1] Movement",
                 "[+1] Sight",
                 "[+20]% XP gained from combat",
-                "Comment [Исследовательская ветка. Проходи большее расстояние за ход, оперативно реагируй на изменения фронта]"]
+                "Comment [Проходи большее расстояние за ход, оперативно реагируй на изменения фронта, получай больше опыта]"]
     "prerequisites": ["Баланс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
@@ -185,7 +185,7 @@
     "uniques": [ "[+25]% Strength <when fighting in [Forest] tiles>",
                  "[+25]% Strength <when fighting in [Jungle] tiles>",
                  "[+1] Sight",
-                 "Comment [Играй от рельефа местности, устраивай засады]"]
+                 "Comment [Играй от рельефа местности, устраивай засады, диктуй свои условия боя]"]
     "prerequisites": ["Баланс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
