@@ -20,14 +20,16 @@
 },
 {
     "name": "Стальная защита",
-    "uniques": ["[+15]% Strength <when defending>"],
+    "uniques": ["[+15]% Strength <when defending>",
+                "Comment [Ветка прокачки защиты юнита]"],
     "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     },
   {
     "name": "Кевлар I",
     "uniques": ["[+10]% Strength <when defending>",
-                "[+33]% Strength <when defending> <vs [Ranged] units>" ],
+                "[+33]% Strength <when defending> <vs [Ranged] units>",
+                "Comment [Ветка защиты от дальнобойных юнитов и городов]"],
     "prerequisites": ["Стальная защита"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
 
@@ -52,7 +54,8 @@
   {
     "name": "Дредноут I"
     "uniques": ["[+10]% Strength <when defending>",
-                "[+20]% Strength <when fighting in [Friendly Land] tiles>" ],
+                "[+20]% Strength <when fighting in [Friendly Land] tiles>",
+                "Comment [Ветка защиты своих земель]"],
     "prerequisites": ["Стальная защита"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
