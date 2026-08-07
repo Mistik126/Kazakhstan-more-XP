@@ -1,7 +1,7 @@
 [
   {
     "name": "Славяне",
-    "leaderName": "Абылай-хан",
+    "leaderName": "Князь Багиров",
     "adjective": "Славянский",
     "startBias": ["Plains"],
     "preferredVictoryType": "Domination",
@@ -27,7 +27,7 @@
     
     "uniques": [
       "New [Military] units start with [500] XP [in all cities]",
-      "[-95]% XP required for promotions",
+      "[-75]% XP required for promotions",
       "[Land] units gain the [Стальной кодекс] promotion <hidden from users>",
       
 
