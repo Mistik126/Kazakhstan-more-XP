@@ -182,9 +182,19 @@
   },
   {
     "name": "Партизан II",
-    "uniques": [ "[+35]% Strength <when fighting in [Forest] tiles>",
-                 "[+30]% Strength <when fighting in [Jungle] tiles>"]
+    "uniques": [ "[+30]% Strength <when fighting in [Forest] tiles>",
+                 "[+35]% Strength <when fighting in [Jungle] tiles>",
+                 "[+1] Range"]
     "prerequisites": ["Партизан I"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "Партизан III",
+    "uniques": [ "[+50]% Strength <when fighting in [Forest] tiles>",
+                 "[+60]% Strength <when fighting in [Jungle] tiles>",
+                 "Can move after attacking",
+                 "[1] additional attacks per turn"]
+    "prerequisites": ["Партизан II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   }
 ]
