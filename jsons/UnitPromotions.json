@@ -27,7 +27,7 @@
     "unitTypes": ["Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     },
   {
-    "name": "Кевлар I",
+    "name": "Ярило I",
     "uniques": ["[+10]% Strength <when defending>",
                 "[+20]% Strength <when defending> <vs cities>",
                 "[+33]% Strength <when defending> <vs [Ranged] units>",
@@ -37,16 +37,16 @@
 
   },
   {
-        "name": "Кевлар II",
+        "name": "Ярило II",
         "uniques": ["[+15]% Strength <when defending>",
                     "[+30]% Strength <when defending> <vs cities>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+33]% Strength <when defending> <vs [Ranged] units>"],
         "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
-        "prerequisites": ["Кевлар I"],
+        "prerequisites": ["Ярило I"],
   },
   {
-        "name": "Кевлар III"
+        "name": "Ярило III"
         "uniques": ["[+20]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+34]% Strength <when defending> <vs [Ranged] units>",
@@ -54,17 +54,17 @@
                     "[1] additional attacks per turn",
                     "Can move after attacking"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
-        "prerequisites": ["Кевлар II"],
+        "prerequisites": ["Ярило II"],
   },
   {
-        "name": "Терминатор"
+        "name": "Ярило"
         "uniques": ["[+25]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+50]% Strength <when defending> <vs [Ranged] units>",
                     "[+50]% Strength <when defending> <vs cities>",
                     "[+50]% XP gained from combat"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
-        "prerequisites": ["Кевлар III"],
+        "prerequisites": ["Ярило III"],
   },
   {
     "name": "Дредноут I"
