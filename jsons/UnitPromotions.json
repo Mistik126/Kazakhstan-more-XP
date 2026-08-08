@@ -192,6 +192,7 @@
     "name": "Баланс",
     "uniques": ["[+10]% Strength <when attacking>",
                 "[+10]% Strength <when defending>",
+          "Can build [Water] improvements on tiles",
                 "Comment [Не можешь выбрать между атакой и защитой? Балансируй!]"],
     "prerequisites": ["Стальной кодекс"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
