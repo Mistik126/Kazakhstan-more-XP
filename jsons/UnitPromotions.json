@@ -263,5 +263,16 @@
                  "[1] additional attacks per turn"]
     "prerequisites": ["Партизан II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
+  },
+  {
+    "name": "Паук",
+    "uniques": [ 
+                 "[+75]% Strength <when fighting in [Forest] tiles>",
+                 "[+65]% Strength <when fighting in [Jungle] tiles>",
+                 "[+50]% XP gained from combat",
+                 "Comment [Хз пока че сюда добавить. Есть идеи сделать что-то типа -100% к урону/защите, но +400%, например, когда в джунглях/лесах]"
+               ]
+    "prerequisites": ["Партизан III"],
+    "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   }
 ]
