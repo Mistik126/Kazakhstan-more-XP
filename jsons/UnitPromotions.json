@@ -99,7 +99,7 @@
                 "[+75]% Strength <when fighting in [Friendly Land] tiles>",
                 "[+50]% XP gained from combat",
                 "Unit will heal every turn, even if it performs an action"],
-    "prerequisites": ["Дредноут III"],
+    "prerequisites": ["Сварог III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
   },
@@ -138,7 +138,7 @@
                "Eliminates combat penalty for attacking across a coast",
                "Heals [30] damage if it kills a unit",
                "[1] additional attacks per turn"]
-    "prerequisites":["Богатырь II"],
+    "prerequisites":["Перун II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
     {
@@ -185,7 +185,7 @@
                "[+75]% Strength <when attacking> <vs cities>",
                "[+1] Movement",
                "[+50]% XP gained from combat"],
-    "prerequisites":["Шторм III"],
+    "prerequisites":["Хорс III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
