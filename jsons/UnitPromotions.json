@@ -112,7 +112,7 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     },
   {
-    "name": "Богатырь I",
+    "name": "Перун I",
     "uniques": ["[+10]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Ranged] units>",
                "Comment [Убийца вражеских юнитов, самое то перемалывать армии недругов, но слаб против их городов]"],
@@ -120,18 +120,18 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Богатырь II",
+    "name": "Перун II",
     "uniques": ["[+15]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Ranged] units>",
                "[+30]% Strength <when attacking> <vs [Mounted] units>",
                "[+1] Range",
                "Can move after attacking",
                "Heals [10] damage if it kills a unit"],
-    "prerequisites":["Богатырь I"],
+    "prerequisites":["Перун I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-  "name": "Богатырь III",
+  "name": "Перун III",
     "uniques": ["[+20]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Wounded] units>",
                "[+30]% Strength <when attacking> <vs [Armored] units>",
@@ -142,18 +142,18 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
     {
-  "name": "Дружинник",
+  "name": "Богатырь",
     "uniques": ["[+25]% Strength <when attacking>",
                "[+50]% Strength <when attacking> <vs [Wounded] units>",
                "[+30]% Strength <when attacking> <vs [Armored] units>",
                "Eliminates combat penalty for attacking over a river",
                "Heals [50] damage if it kills a unit",
                "[+50]% XP gained from combat"]
-    "prerequisites":["Богатырь III"],
+    "prerequisites":["Перун III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Шторм I",
+    "name": "Хорс I",
     "uniques": ["[+10]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs cities>",
                "Comment [Вместо мостов противник строит стены? Вкачай Шторм Z, увеличивает осадный урон]"],
@@ -161,22 +161,22 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Шторм II",
+    "name": "Хорс II",
     "uniques": ["[+15]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs cities>",
                "[+20]% Strength <when defending> <vs cities>",
                "[+1] Range"]
-    "prerequisites":["Шторм I"],
+    "prerequisites":["Хорс I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Шторм III",
+    "name": "Хорс III",
     "uniques": ["[+20]% Strength <when attacking>",
                "[+40]% Strength <when attacking> <vs cities>",
                "[+1] Sight",
                "[1] additional attacks per turn",
                "Can move after attacking"],
-    "prerequisites":["Шторм II"],
+    "prerequisites":["Хорс II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
