@@ -67,7 +67,7 @@
         "prerequisites": ["Ярило III"],
   },
   {
-    "name": "Дредноут I"
+    "name": "Сварог I"
     "uniques": ["[+10]% Strength <when defending>",
                 "[+20]% Strength <when fighting in [Friendly Land] tiles>",
                 "Comment [Защити свои земли! Сделай неубиваемую ходячую крепость, но только на дружественной территории]"],
@@ -76,25 +76,25 @@
     
   },
   {
-    "name": "Дредноут II"
+    "name": "Сварог II"
     "uniques": ["[+15]% Strength <when defending>",
                 "[+30]% Strength <when fighting in [Friendly Land] tiles>" ],
-    "prerequisites": ["Дредноут I"],
+    "prerequisites": ["Сварог I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
   },
   {
-    "name": "Дредноут III"
+    "name": "Сварог III"
     "uniques": ["[+20]% Strength <when defending>",
                 "[+50]% Strength <when fighting in [Friendly Land] tiles>",
                 "[1] additional attacks per turn",
                 "Can move after attacking"],
-    "prerequisites": ["Дредноут II"],
+    "prerequisites": ["Сварог II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
   },
   {
-    "name": "Линкор"
+    "name": "Сварог"
     "uniques": ["[+25]% Strength <when defending>",
                 "[+75]% Strength <when fighting in [Friendly Land] tiles>",
                 "[+50]% XP gained from combat",
