@@ -97,7 +97,8 @@
     "name": "Линкор"
     "uniques": ["[+25]% Strength <when defending>",
                 "[+75]% Strength <when fighting in [Friendly Land] tiles>",
-                "[+50]% XP gained from combat"],
+                "[+50]% XP gained from combat",
+                "Unit will heal every turn, even if it performs an action"],
     "prerequisites": ["Дредноут III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
