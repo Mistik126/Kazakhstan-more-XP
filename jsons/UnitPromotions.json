@@ -112,7 +112,7 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     },
   {
-    "name": "Killer",
+    "name": "Богатырь I",
     "uniques": ["[+10]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Ranged] units>",
                "Comment [Убийца вражеских юнитов, самое то перемалывать армии недругов, но слаб против их городов]"],
@@ -120,36 +120,36 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "SuperKill",
+    "name": "Богатырь II",
     "uniques": ["[+15]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Ranged] units>",
                "[+30]% Strength <when attacking> <vs [Mounted] units>",
                "[+1] Range",
                "Can move after attacking",
                "Heals [10] damage if it kills a unit"],
-    "prerequisites":["Killer"],
+    "prerequisites":["Богатырь I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-  "name": "OverKill",
+  "name": "Богатырь III",
     "uniques": ["[+20]% Strength <when attacking>",
                "[+30]% Strength <when attacking> <vs [Wounded] units>",
                "[+30]% Strength <when attacking> <vs [Armored] units>",
                "Eliminates combat penalty for attacking across a coast",
                "Heals [30] damage if it kills a unit",
                "[1] additional attacks per turn"]
-    "prerequisites":["SuperKill"],
+    "prerequisites":["Богатырь II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
     {
-  "name": "MEGAOVERKILL",
+  "name": "Дружинник",
     "uniques": ["[+25]% Strength <when attacking>",
                "[+50]% Strength <when attacking> <vs [Wounded] units>",
                "[+30]% Strength <when attacking> <vs [Armored] units>",
                "Eliminates combat penalty for attacking over a river",
                "Heals [50] damage if it kills a unit",
                "[+50]% XP gained from combat"]
-    "prerequisites":["OverKill"],
+    "prerequisites":["Богатырь III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
