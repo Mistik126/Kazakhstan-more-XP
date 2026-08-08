@@ -27,7 +27,7 @@
     "unitTypes": ["Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     },
   {
-    "name": "Ярило I",
+    "name": "Мара I",
     "uniques": ["[+10]% Strength <when defending>",
                 "[+20]% Strength <when defending> <vs cities>",
                 "[+33]% Strength <when defending> <vs [Ranged] units>",
@@ -37,16 +37,16 @@
 
   },
   {
-        "name": "Ярило II",
+        "name": "Мара II",
         "uniques": ["[+15]% Strength <when defending>",
                     "[+30]% Strength <when defending> <vs cities>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+33]% Strength <when defending> <vs [Ranged] units>"],
         "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
-        "prerequisites": ["Ярило I"],
+        "prerequisites": ["Мара I"],
   },
   {
-        "name": "Ярило III"
+        "name": "Мара III"
         "uniques": ["[+20]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+34]% Strength <when defending> <vs [Ranged] units>",
@@ -54,17 +54,17 @@
                     "[1] additional attacks per turn",
                     "Can move after attacking"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
-        "prerequisites": ["Ярило II"],
+        "prerequisites": ["Мара II"],
   },
   {
-        "name": "Ярило"
+        "name": "Матерь Мара"
         "uniques": ["[+25]% Strength <when defending>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+50]% Strength <when defending> <vs [Ranged] units>",
                     "[+50]% Strength <when defending> <vs cities>",
                     "[+50]% XP gained from combat"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
-        "prerequisites": ["Ярило III"],
+        "prerequisites": ["Мара III"],
   },
   {
     "name": "Сварог I"
@@ -198,7 +198,7 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
 {
-    "name": "Доходяга I",
+    "name": "Стрибог I",
     "uniques": ["[+10]% Strength <when attacking>",
                 "[+1] Sight",
                 "[+25]% XP gained from combat",
@@ -207,16 +207,16 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Доходяга II",
+    "name": "Стрибог II",
     "uniques": ["[+10]% Strength <when defending>",
                 "[+1] Movement",
                 "[+1] Range",
                 "[+25]% XP gained from combat"]
-    "prerequisites": ["Доходяга I"],
+    "prerequisites": ["Стрибог I"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Доходяга III",
+    "name": "Стрибог III",
     "uniques": ["[+20]% Strength <when attacking>",
                 "[+1] Movement",
                 "[+1] Sight",
@@ -224,17 +224,17 @@
                 "[+50]% XP gained from combat",
                 "Ignores terrain cost",
                 "Withdraws before melee combat <with [50]% chance>"]
-    "prerequisites": ["Доходяга II"],
+    "prerequisites": ["Стрибог II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
-    "name": "Бродяга",
+    "name": "Ветер Стрибога",
     "uniques": ["[+25]% Strength <when attacking>",
                 "[+1] Movement",
                 "[+1] Sight",
                 "[+100]% XP gained from combat",
                  "Withdraws before melee combat <with [75]% chance>"]
-    "prerequisites": ["Доходяга III"],
+    "prerequisites": ["Стрибог III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
   {
