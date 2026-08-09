@@ -3,7 +3,7 @@
     "name": "Русы",
     "leaderName": "Князь Багиров",
     "adjective": "Славянский",
-    "startBias": ["Plains"],
+    "startBias": ["Tundra"],
     "preferredVictoryType": "Domination",
     
     "startIntroPart1": "Отец Сварог зовёт...",
