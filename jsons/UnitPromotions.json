@@ -41,7 +41,8 @@
         "uniques": ["[+15]% Strength <when defending>",
                     "[+30]% Strength <when defending> <vs cities>",
                     "[+50]% Strength <when defending> <vs [Air] units>",
-                    "[+33]% Strength <when defending> <vs [Ranged] units>"],
+                    "[+33]% Strength <when defending> <vs [Ranged] units>",
+                    "[+20]% Strength <when fighting in [Foreign Land] tiles>"],
         "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
         "prerequisites": ["Мара I"],
   },
@@ -51,8 +52,7 @@
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+34]% Strength <when defending> <vs [Ranged] units>",
                     "[+30]% Strength <when defending> <vs cities>",
-                    "[1] additional attacks per turn",
-                    "Can move after attacking"]
+                    "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
         "prerequisites": ["Мара II"],
   },
@@ -62,7 +62,7 @@
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+50]% Strength <when defending> <vs [Ranged] units>",
                     "[+50]% Strength <when defending> <vs cities>",
-                    "[+50]% XP gained from combat"]
+                    "[+150]% XP gained from combat"]
                     "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor"],
         "prerequisites": ["Мара III"],
   },
@@ -86,9 +86,7 @@
   {
     "name": "Сварог III"
     "uniques": ["[+20]% Strength <when defending>",
-                "[+50]% Strength <when fighting in [Friendly Land] tiles>",
-                "[1] additional attacks per turn",
-                "Can move after attacking"],
+                "[+50]% Strength <when fighting in [Friendly Land] tiles>"],
     "prerequisites": ["Сварог II"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
     
@@ -97,7 +95,7 @@
     "name": "Сварог"
     "uniques": ["[+25]% Strength <when defending>",
                 "[+75]% Strength <when fighting in [Friendly Land] tiles>",
-                "[+50]% XP gained from combat",
+                "[+150]% XP gained from combat",
                 "Unit will heal every turn, even if it performs an action"],
     "prerequisites": ["Сварог III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
