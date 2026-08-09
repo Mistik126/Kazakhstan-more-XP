@@ -1,6 +1,7 @@
 [
   {
     "name": "Русы",
+    "icon": "Русы",
     "leaderName": "Князь Багиров",
     "adjective": "Славянский",
     "startBias": ["Tundra"],
