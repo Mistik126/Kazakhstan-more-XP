@@ -2,8 +2,7 @@
     "name": "Строевая Подготовка", // твоё название
     "replaces": "Barracks", // что заменяем
     "cost": 100,
-    "requiredTech": "Horseback Riding",
-    "xpForNewUnits": 25, // уникальный бонус
+    "requiredTech": "Horseback Riding"
     "uniques": ["New [Military] units start with [20] XP [in all cities]"],
     "uniqueTo": "Русы" // обязательно!
 }
