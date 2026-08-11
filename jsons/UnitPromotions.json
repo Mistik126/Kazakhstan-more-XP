@@ -230,6 +230,7 @@
     "uniques": ["[+25]% Strength <when attacking>",
                 "[+1] Movement",
                 "[+1] Sight",
+                "Unit will heal every turn, even if it performs an action",
                 "[+100]% XP gained from combat",
                  "Withdraws before melee combat <with [75]% chance>"]
     "prerequisites": ["Стрибог III"],
