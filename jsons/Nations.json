@@ -28,7 +28,9 @@
     "uniques": [
       "New [Military] units start with [50] XP [in all cities]",
       "[-25]% XP required for promotions",
-      "[Land] units gain the [Стальной кодекс] promotion <hidden from users>"
+      "[Land] units gain the [Стальной кодекс] promotion <hidden from users>",
+      "Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+      "Earn [50]% of killed [Military] unit's [Strength] as [Science]"
       
 
     ]
