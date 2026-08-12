@@ -43,7 +43,7 @@
                     "[+50]% Strength <when defending> <vs [Air] units>",
                     "[+33]% Strength <when defending> <vs [Ranged] units>",
                     "[+20]% Strength <when fighting in [Foreign Land] tiles>"],
-        "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor", "Ranged Gunpowder"],
+        "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor", "Gunpowder", "Ranged Gunpowder"],,
         "prerequisites": ["Мара I"],
   },
   {
@@ -53,7 +53,7 @@
                     "[+34]% Strength <when defending> <vs [Ranged] units>",
                     "[+30]% Strength <when defending> <vs cities>",
                     "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
-                    "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor", "Ranged Gunpowder"],
+                    "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor", "Gunpowder", "Ranged Gunpowder"],
         "prerequisites": ["Мара II"],
   },
   {
@@ -63,7 +63,7 @@
                     "[+50]% Strength <when defending> <vs [Ranged] units>",
                     "[+50]% Strength <when defending> <vs cities>",
                     "[+150]% XP gained from combat"]
-                    "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor", "Ranged Gunpowder"],
+                    "unitTypes": ["Melee","Sword","Archery", "Mounted","Scout","Siege","Ranged", "Armor", "Gunpowder", "Ranged Gunpowder"],
         "prerequisites": ["Мара III"],
   },
   {
