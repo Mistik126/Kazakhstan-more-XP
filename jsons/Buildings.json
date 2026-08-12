@@ -9,9 +9,7 @@
         "uniques": [
             "New [Military] units start with [20] XP [in this city]",
             "Destroyed when the city is captured",
-            "All newly-trained [Melee] units [in this city] receive the [Стальная защита] promotion",
-            "Gives a free [Iron] resource in the city",
-            "Indicates the presence of [Iron]"
+            "All newly-trained [Melee] units [in this city] receive the [Стальная защита] promotion"
         ],
         "requiredTech": "Bronze Working"
     },
