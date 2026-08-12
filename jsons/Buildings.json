@@ -11,7 +11,7 @@
         "uniques": [
             "New [Military] units start with [20] XP [in this city]",
             "Destroyed when the city is captured",
-            "All newly-trained [Melee] units [in this city] receive the [Баланс] promotion",
+            "All newly-trained [Melee, Sword, Archery, Mounted, Scout, Siege, Ranged, Armored, Gunpowder, Ranged Gunpowder] units [in this city] receive the [Баланс] promotion",
             
         ],
         "requiredTech": "Bronze Working"
