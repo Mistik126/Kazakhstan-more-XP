@@ -288,7 +288,7 @@
      "[+10] HP when healing <in [Foreign Land] tiles>",
      "Can move after attacking",
      "No movement cost to pillage"
-   ]
+   ],
      "prerequisites": ["Ветер Стрибога"],
      "unitTypes": ["Scout"]
   }
