@@ -277,7 +277,6 @@
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
   },
 
-  //Прокачка на скаута 
   {
     "name": "Воин Ветра",
    "uniques": [
