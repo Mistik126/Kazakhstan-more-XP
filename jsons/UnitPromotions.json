@@ -291,6 +291,14 @@
    ],
      "prerequisites": ["Ветер Стрибога"],
      "unitTypes": ["Scout"]
+  },
+  {
+     "name": "Самолет ГК"
+    "uniques": ["[-50]% construction time for [All] improvements",
+                "[+1] Movement",
+                "Ignores terrain cost"],
+    "uitType": ["Builder"]
+    
   }
     
     ]
