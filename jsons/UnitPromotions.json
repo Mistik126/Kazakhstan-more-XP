@@ -275,5 +275,18 @@
                ]
     "prerequisites": ["Партизан III"],
     "unitTypes": ["Melee","Sword","Archery","Mounted","Scout","Siege","Ranged","Armored","Gunpowder","Ranged Gunpowder"]
-  }
+  },
+
+  //Прокачка на скаута 
+  {
+    "name": "Воин Ветра",
+   "uniques": [
+     "[+150]% Strength <when attacking>",
+     "[+200]% Strength <when defending>",
+     "[+1] Movement",
+     "[1] additional attacks per turn",
+     "[+100]% XP gained from combat"
+   ]
+     "prerequisites": ["Ветер Стрибога"],
+     "unitTypes": ["Scout"]
 ]
