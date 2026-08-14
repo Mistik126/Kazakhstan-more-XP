@@ -285,7 +285,8 @@
      "[+200]% Strength <when defending>",
      "[+1] Movement",
      "[1] additional attacks per turn",
-     "[+100]% XP gained from combat"
+     "[+100]% XP gained from combat",
+     "[+10] HP when healing <in [Foreign Land] tiles>"
    ]
      "prerequisites": ["Ветер Стрибога"],
      "unitTypes": ["Scout"]
