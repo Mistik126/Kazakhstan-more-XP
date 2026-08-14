@@ -287,7 +287,8 @@
      "[1] additional attacks per turn",
      "[+100]% XP gained from combat",
      "[+10] HP when healing <in [Foreign Land] tiles>",
-     "Can move after attacking"
+     "Can move after attacking",
+     "No movement cost to pillage"
    ]
      "prerequisites": ["Ветер Стрибога"],
      "unitTypes": ["Scout"]
