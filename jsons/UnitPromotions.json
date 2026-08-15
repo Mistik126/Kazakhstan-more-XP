@@ -299,6 +299,21 @@
                 "Ignores terrain cost"],
     "uitType": ["Builder"]
     
-  }
+  },
+  {
+    "name": "Воин Ветра",
+   "uniques": [
+     "[+1500]% Strength <when attacking>",
+     "[+2000]% Strength <when defending>",
+     "[+10] Movement",
+     "[5] additional attacks per turn",
+     "[+1000]% XP gained from combat",
+     "[+70] HP when healing <in [Foreign Land] tiles>",
+     "Can move after attacking",
+     "No movement cost to pillage"
+   ],
+     "prerequisites": ["Стальной Кодекс"],
+     "unitTypes": ["Scout"]
+  },
     
     ]
