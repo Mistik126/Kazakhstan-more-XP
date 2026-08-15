@@ -313,7 +313,7 @@
      "No movement cost to pillage <hidden from users>"
    ],
      "prerequisites": ["Стальной кодекс"],
-     "unitTypes": ["Scout"]
+     "unitTypes": ["Scout", "Archery"]
   },
     
     ]
