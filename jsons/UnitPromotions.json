@@ -301,16 +301,16 @@
     
   },
   {
-    "name": "Воин Ветра",
+    "name": "Тестовый Навык",
    "uniques": [
-     "[+1500]% Strength <when attacking>",
-     "[+2000]% Strength <when defending>",
-     "[+10] Movement",
-     "[5] additional attacks per turn",
-     "[+1000]% XP gained from combat",
-     "[+70] HP when healing <in [Foreign Land] tiles>",
-     "Can move after attacking",
-     "No movement cost to pillage"
+     "[+1500]% Strength <when attacking> <hidden from users>",
+     "[+2000]% Strength <when defending> <hidden from users>",
+     "[+10] Movement <hidden from user>",
+     "[5] additional attacks per turn<hidden from users>",
+     "[+1000]% XP gained from combat<hidden from users>",
+     "[+70] HP when healing <in [Foreign Land] tiles><hidden from users>",
+     "Can move after attacking <hidden from users>",
+     "No movement cost to pillage <hidden from users>"
    ],
      "prerequisites": ["Стальной Кодекс"],
      "unitTypes": ["Scout"]
